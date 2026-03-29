@@ -1,0 +1,58 @@
+.wm-app .app-accordion.panel.panel-default {
+  --wm-accordion-background: var(--wm-color-border);
+}
+.wm-app .btn-filled.btn-primary {
+  --wm-btn-background: var(--wm-color-info);
+}
+:root {
+--wm-space-0: 0px;
+
+--wm-color-primary: #FF7250;
+--wm-color-primary-container: #ffd7ad;
+--wm-color-primary-fixed: #ffe4b9;
+--wm-color-primary-fixed-dim: #ffe4b9;
+--wm-color-on-primary: #000000;
+--wm-color-on-primary-container: #c64125;
+--wm-color-on-primary-fixed: #740000;
+--wm-color-on-primary-fixed-variant: #aa2710;
+--wm-color-secondary: #656DF9;
+--wm-color-secondary-container: #d4ccff;
+--wm-color-secondary-fixed: #e2d9ff;
+--wm-color-secondary-fixed-dim: #e2d9ff;
+--wm-color-on-secondary: #000000;
+--wm-color-on-secondary-container: #1e42c5;
+--wm-color-on-secondary-fixed: #000c7b;
+--wm-color-on-secondary-fixed-variant: #002eac;
+--wm-color-tertiary: #E0B313;
+--wm-color-tertiary-container: #ffff84;
+--wm-color-tertiary-fixed: #ffff91;
+--wm-color-tertiary-fixed-dim: #ffff91;
+--wm-color-on-tertiary: #000000;
+--wm-color-on-tertiary-container: #aa8400;
+--wm-color-on-tertiary-fixed: #5f4300;
+--wm-color-on-tertiary-fixed-variant: #8f6d00;
+--wm-color-success: #5AC588;
+--wm-color-success-container: #cffff8;
+--wm-color-on-success: #000000;
+--wm-color-on-success-container: #007c45;
+--wm-color-info: #00c8ff;
+--wm-color-info-container: #a9ffff;
+--wm-color-on-info: #000000;
+--wm-color-on-info-container: #00a3d8;
+--wm-color-warning: #ffae00;
+--wm-color-warning-container: #ffff7f;
+--wm-color-on-warning: #000000;
+--wm-color-on-warning-container: #d48a00;
+--wm-color-error: #f44336;
+--wm-color-error-container: #ffad90;
+--wm-color-on-error: #000000;
+--wm-color-on-error-container: #ab0002;
+--wm-color-background: #FFFFFF;
+--wm-color-on-background: #424242;
+--wm-color-outline: #b3b3b3;
+--wm-color-outline-variant: #ffffff;
+--wm-color-shadow: #dfdfdf;
+--wm-color-scrim: #FFFFFF;
+--wm-color-inverse-primary: #ffffec;
+}
+

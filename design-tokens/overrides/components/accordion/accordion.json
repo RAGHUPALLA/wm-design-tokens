@@ -1,0 +1,19 @@
+{
+  "accordion" : {
+    "appearances" : {
+      "default" : {
+        "variantGroups" : {
+          "status" : {
+            "default" : {
+              "background" : {
+                "@" : {
+                  "value" : "{color.border.@.value}"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "btn" : {
+    "appearances" : {
+      "filled" : {
+        "variantGroups" : {
+          "status" : {
+            "primary" : {
+              "background" : {
+                "value" : "{color.info.@.value}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

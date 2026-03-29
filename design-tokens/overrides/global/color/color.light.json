@@ -1,0 +1,227 @@
+{
+  "color" : {
+    "primary" : {
+      "@" : {
+        "value" : "#FF7250"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#ffd7ad"
+        }
+      },
+      "fixed" : {
+        "@" : {
+          "value" : "#ffe4b9"
+        },
+        "dim" : {
+          "value" : "#ffe4b9"
+        }
+      }
+    },
+    "on-primary" : {
+      "@" : {
+        "value" : "#000000"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#c64125"
+        }
+      },
+      "fixed" : {
+        "@" : {
+          "value" : "#740000"
+        },
+        "variant" : {
+          "value" : "#aa2710"
+        }
+      }
+    },
+    "inverse" : {
+      "primary" : {
+        "@" : {
+          "value" : "#ffffec"
+        }
+      }
+    },
+    "secondary" : {
+      "@" : {
+        "value" : "#656DF9"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#d4ccff"
+        }
+      },
+      "fixed" : {
+        "@" : {
+          "value" : "#e2d9ff"
+        },
+        "dim" : {
+          "value" : "#e2d9ff"
+        }
+      }
+    },
+    "on-secondary" : {
+      "@" : {
+        "value" : "#000000"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#1e42c5"
+        }
+      },
+      "fixed" : {
+        "@" : {
+          "value" : "#000c7b"
+        },
+        "variant" : {
+          "value" : "#002eac"
+        }
+      }
+    },
+    "tertiary" : {
+      "@" : {
+        "value" : "#E0B313"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#ffff84"
+        }
+      },
+      "fixed" : {
+        "@" : {
+          "value" : "#ffff91"
+        },
+        "dim" : {
+          "value" : "#ffff91"
+        }
+      }
+    },
+    "on-tertiary" : {
+      "@" : {
+        "value" : "#000000"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#aa8400"
+        }
+      },
+      "fixed" : {
+        "@" : {
+          "value" : "#5f4300"
+        },
+        "variant" : {
+          "value" : "#8f6d00"
+        }
+      }
+    },
+    "success" : {
+      "@" : {
+        "value" : "#5AC588"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#cffff8"
+        }
+      }
+    },
+    "on-success" : {
+      "@" : {
+        "value" : "#000000"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#007c45"
+        }
+      }
+    },
+    "info" : {
+      "@" : {
+        "value" : "#00c8ff"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#a9ffff"
+        }
+      }
+    },
+    "on-info" : {
+      "@" : {
+        "value" : "#000000"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#00a3d8"
+        }
+      }
+    },
+    "warning" : {
+      "@" : {
+        "value" : "#ffae00"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#ffff7f"
+        }
+      }
+    },
+    "on-warning" : {
+      "@" : {
+        "value" : "#000000"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#d48a00"
+        }
+      }
+    },
+    "error" : {
+      "@" : {
+        "value" : "#f44336"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#ffad90"
+        }
+      }
+    },
+    "on-error" : {
+      "@" : {
+        "value" : "#000000"
+      },
+      "container" : {
+        "@" : {
+          "value" : "#ab0002"
+        }
+      }
+    },
+    "background" : {
+      "@" : {
+        "value" : "#FFFFFF"
+      }
+    },
+    "on-background" : {
+      "@" : {
+        "value" : "#424242"
+      }
+    },
+    "outline" : {
+      "@" : {
+        "value" : "#b3b3b3"
+      },
+      "variant" : {
+        "value" : "#ffffff"
+      }
+    },
+    "shadow" : {
+      "@" : {
+        "value" : "#dfdfdf"
+      }
+    },
+    "scrim" : {
+      "@" : {
+        "value" : "#FFFFFF"
+      }
+    }
+  }
+}
