@@ -2,90 +2,100 @@
   "color" : {
     "primary" : {
       "@" : {
-        "value" : "#FF7250"
+        "value" : "#2f54ebff"
       },
       "container" : {
         "@" : {
-          "value" : "#ffd7ad"
+          "value" : "#afb0ff"
         }
       },
       "fixed" : {
         "@" : {
-          "value" : "#ffe4b9"
+          "value" : "#bdbcff"
         },
         "dim" : {
-          "value" : "#ffe4b9"
+          "value" : "#bdbcff"
         }
       }
     },
     "on-primary" : {
       "@" : {
-        "value" : "#000000"
+        "value" : "#ffffff"
       },
       "container" : {
         "@" : {
-          "value" : "#c64125"
+          "value" : "#002cb7"
         }
       },
       "fixed" : {
         "@" : {
-          "value" : "#740000"
+          "value" : "#00006f"
         },
         "variant" : {
-          "value" : "#aa2710"
+          "value" : "#001a9e"
         }
       }
     },
     "inverse" : {
       "primary" : {
         "@" : {
-          "value" : "#ffffec"
+          "value" : "#f6eeff"
+        }
+      },
+      "surface" : {
+        "@" : {
+          "value" : "#000000ff"
+        }
+      },
+      "on-surface" : {
+        "@" : {
+          "value" : "#000000ff"
         }
       }
     },
     "secondary" : {
       "@" : {
-        "value" : "#656DF9"
+        "value" : "#000000ff"
       },
       "container" : {
         "@" : {
-          "value" : "#d4ccff"
+          "value" : "#555555"
         }
       },
       "fixed" : {
         "@" : {
-          "value" : "#e2d9ff"
+          "value" : "#5f5f5f"
         },
         "dim" : {
-          "value" : "#e2d9ff"
+          "value" : "#5f5f5f"
         }
       }
     },
     "on-secondary" : {
       "@" : {
-        "value" : "#000000"
+        "value" : "#ffffff"
       },
       "container" : {
         "@" : {
-          "value" : "#1e42c5"
+          "value" : "#000000"
         }
       },
       "fixed" : {
         "@" : {
-          "value" : "#000c7b"
+          "value" : "#000000"
         },
         "variant" : {
-          "value" : "#002eac"
+          "value" : "#000000"
         }
       }
     },
     "tertiary" : {
       "@" : {
-        "value" : "#E0B313"
+        "value" : "#faad14ff"
       },
       "container" : {
         "@" : {
-          "value" : "#ffff84"
+          "value" : "#ffff85"
         }
       },
       "fixed" : {
@@ -103,25 +113,25 @@
       },
       "container" : {
         "@" : {
-          "value" : "#aa8400"
+          "value" : "#c27e00"
         }
       },
       "fixed" : {
         "@" : {
-          "value" : "#5f4300"
+          "value" : "#733d00"
         },
         "variant" : {
-          "value" : "#8f6d00"
+          "value" : "#a66700"
         }
       }
     },
     "success" : {
       "@" : {
-        "value" : "#5AC588"
+        "value" : "#52c41aff"
       },
       "container" : {
         "@" : {
-          "value" : "#cffff8"
+          "value" : "#cdff93"
         }
       }
     },
@@ -131,17 +141,17 @@
       },
       "container" : {
         "@" : {
-          "value" : "#007c45"
+          "value" : "#007a00"
         }
       }
     },
     "info" : {
       "@" : {
-        "value" : "#00c8ff"
+        "value" : "#13c2c2ff"
       },
       "container" : {
         "@" : {
-          "value" : "#a9ffff"
+          "value" : "#9effff"
         }
       }
     },
@@ -151,17 +161,17 @@
       },
       "container" : {
         "@" : {
-          "value" : "#00a3d8"
+          "value" : "#009d9e"
         }
       }
     },
     "warning" : {
       "@" : {
-        "value" : "#ffae00"
+        "value" : "#faad14ff"
       },
       "container" : {
         "@" : {
-          "value" : "#ffff7f"
+          "value" : "#ffff85"
         }
       }
     },
@@ -171,17 +181,17 @@
       },
       "container" : {
         "@" : {
-          "value" : "#d48a00"
+          "value" : "#d08900"
         }
       }
     },
     "error" : {
       "@" : {
-        "value" : "#f44336"
+        "value" : "#f5222dff"
       },
       "container" : {
         "@" : {
-          "value" : "#ffad90"
+          "value" : "#ff9985"
         }
       }
     },
@@ -191,7 +201,7 @@
       },
       "container" : {
         "@" : {
-          "value" : "#ab0002"
+          "value" : "#ab0000"
         }
       }
     },
@@ -221,6 +231,66 @@
     "scrim" : {
       "@" : {
         "value" : "#FFFFFF"
+      }
+    },
+    "surface" : {
+      "@" : {
+        "value" : "#FFFFFF"
+      },
+      "variant" : {
+        "@" : {
+          "value" : "#ffffff"
+        }
+      },
+      "bright" : {
+        "@" : {
+          "value" : "#ffffff"
+        }
+      },
+      "dim" : {
+        "@" : {
+          "value" : "#e5e5e5"
+        }
+      },
+      "tint" : {
+        "@" : {
+          "value" : "#e5e5e5"
+        }
+      },
+      "container" : {
+        "@" : {
+          "value" : "#000000ff"
+        },
+        "low" : {
+          "@" : {
+            "value" : "#00000052"
+          }
+        },
+        "lowest" : {
+          "@" : {
+            "value" : "#ffffff"
+          }
+        },
+        "high" : {
+          "@" : {
+            "value" : "#ffffff"
+          }
+        },
+        "highest" : {
+          "@" : {
+            "value" : "#ffffff"
+          }
+        }
+      }
+    },
+    "on-surface" : {
+      "@" : {
+        "value" : "#000000ff"
+      },
+      "variant" : {
+        "@" : {
+          "value" : "#ffffff"
+        }
       }
     }
   }
