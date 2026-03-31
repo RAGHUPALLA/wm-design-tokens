@@ -1,36 +1,322 @@
 {
-  "font" : {
-    "weight" : {
-      "100" : {
-        "value" : "100"
+  "font": {
+    "weight": {
+      "100": {
+        "value": "100"
+      },
+      "200": {
+        "value": "200"
+      },
+      "300": {
+        "value": "300"
+      },
+      "400": {
+        "value": "400"
+      },
+      "500": {
+        "value": "500"
+      },
+      "600": {
+        "value": "600"
+      },
+      "700": {
+        "value": "700"
+      },
+      "800": {
+        "value": "800"
+      },
+      "900": {
+        "value": "900"
       }
     },
-    "family" : {
-      "brand" : {
-        "value" : "Roboto, Arial, Helvetica, sans-serif"
+    "family": {
+      "brand": {
+        "value": "Roboto, {font.family.backup.value}"
+      },
+      "plain": {
+        "value": "Roboto, {font.family.backup.value}"
+      },
+      "backup": {
+        "value": "Arial, Helvetica, sans-serif"
       }
     }
   },
-  "h1" : {
-    "font-family" : {
-      "value" : "Roboto, Arial, Helvetica, sans-serif"
+  "h1": {
+    "font-family": {
+      "value": "{font.family.brand.value}"
     },
-    "font-weight" : {
-      "value" : "400"
+    "font-weight": {
+      "value": "{font.weight.400.value}"
     },
-    "font-size" : {
-      "value" : "32px"
+    "font-size": {
+      "value": "32px"
     },
-    "line-height" : {
-      "value" : "40px"
+    "line-height": {
+      "value": "40px"
+    },
+    "letter-spacing": {
+      "value": "0px"
     }
   },
-  "p" : {
-    "font-weight" : {
-      "value" : "500"
+  "p": {
+    "font-weight": {
+      "value": "{font.weight.500.value}"
     },
-    "font-size" : {
-      "value" : "12px"
+    "font-size": {
+      "value": "12px"
+    },
+    "font-family": {
+      "value": "{font.family.brand.value}"
+    },
+    "line-height": {
+      "value": "18px"
+    },
+    "letter-spacing": {
+      "value": "0.1px"
+    }
+  },
+  "body": {
+    "large": {
+      "font-family": {
+        "value": "{font.family.brand.value}"
+      },
+      "font-weight": {
+        "value": "{font.weight.400.value}"
+      },
+      "font-size": {
+        "value": "16px"
+      },
+      "line-height": {
+        "value": "24px"
+      },
+      "letter-spacing": {
+        "value": "0.5px"
+      }
+    },
+    "medium": {
+      "font-family": {
+        "value": "{font.family.brand.value}"
+      },
+      "font-weight": {
+        "value": "{font.weight.400.value}"
+      },
+      "font-size": {
+        "value": "14px"
+      },
+      "line-height": {
+        "value": "20px"
+      },
+      "letter-spacing": {
+        "value": "0.25px"
+      }
+    },
+    "small": {
+      "font-family": {
+        "value": "{font.family.brand.value}"
+      },
+      "font-weight": {
+        "value": "{font.weight.400.value}"
+      },
+      "font-size": {
+        "value": "12px"
+      },
+      "line-height": {
+        "value": "16px"
+      },
+      "letter-spacing": {
+        "value": "0.4px"
+      }
+    }
+  },
+  "h2": {
+    "font-family": {
+      "value": "{font.family.brand.value}"
+    },
+    "font-weight": {
+      "value": "{font.weight.400.value}"
+    },
+    "font-size": {
+      "value": "28px"
+    },
+    "line-height": {
+      "value": "36px"
+    },
+    "letter-spacing": {
+      "value": "0px"
+    }
+  },
+  "h3": {
+    "font-family": {
+      "value": "{font.family.brand.value}"
+    },
+    "font-weight": {
+      "value": "{font.weight.400.value}"
+    },
+    "font-size": {
+      "value": "24px"
+    },
+    "line-height": {
+      "value": "32px"
+    },
+    "letter-spacing": {
+      "value": "0px"
+    }
+  },
+  "h4": {
+    "font-family": {
+      "value": "{font.family.brand.value}"
+    },
+    "font-weight": {
+      "value": "{font.weight.400.value}"
+    },
+    "font-size": {
+      "value": "22px"
+    },
+    "line-height": {
+      "value": "28px"
+    },
+    "letter-spacing": {
+      "value": "0px"
+    }
+  },
+  "h5": {
+    "font-family": {
+      "value": "{font.family.brand.value}"
+    },
+    "font-weight": {
+      "value": "{font.weight.500.value}"
+    },
+    "font-size": {
+      "value": "16px"
+    },
+    "line-height": {
+      "value": "24px"
+    },
+    "letter-spacing": {
+      "value": "0.15px"
+    }
+  },
+  "h6": {
+    "font-family": {
+      "value": "{font.family.brand.value}"
+    },
+    "font-weight": {
+      "value": "{font.weight.500.value}"
+    },
+    "font-size": {
+      "value": "14px"
+    },
+    "line-height": {
+      "value": "20px"
+    },
+    "letter-spacing": {
+      "value": "0.1px"
+    }
+  },
+  "label": {
+    "large": {
+      "font-family": {
+        "value": "{font.family.brand.value}"
+      },
+      "font-weight": {
+        "value": "{font.weight.500.value}"
+      },
+      "font-size": {
+        "value": "14px"
+      },
+      "line-height": {
+        "value": "20px"
+      },
+      "letter-spacing": {
+        "value": "0.1px"
+      }
+    },
+    "medium": {
+      "font-family": {
+        "value": "{font.family.brand.value}"
+      },
+      "font-weight": {
+        "value": "{font.weight.500.value}"
+      },
+      "font-size": {
+        "value": "12px"
+      },
+      "line-height": {
+        "value": "16px"
+      },
+      "letter-spacing": {
+        "value": "0.5px"
+      }
+    },
+    "small": {
+      "font-family": {
+        "value": "{font.family.brand.value}"
+      },
+      "font-weight": {
+        "value": "{font.weight.500.value}"
+      },
+      "font-size": {
+        "value": "11px"
+      },
+      "line-height": {
+        "value": "16px"
+      },
+      "letter-spacing": {
+        "value": "0.5px"
+      }
+    }
+  },
+  "display": {
+    "large": {
+      "font-family": {
+        "value": "{font.family.brand.value}"
+      },
+      "font-weight": {
+        "value": "{font.weight.400.value}"
+      },
+      "font-size": {
+        "value": "57px"
+      },
+      "line-height": {
+        "value": "64px"
+      },
+      "letter-spacing": {
+        "value": "-0.25px"
+      }
+    },
+    "medium": {
+      "font-family": {
+        "value": "{font.family.brand.value}"
+      },
+      "font-weight": {
+        "value": "{font.weight.400.value}"
+      },
+      "font-size": {
+        "value": "45px"
+      },
+      "line-height": {
+        "value": "52px"
+      },
+      "letter-spacing": {
+        "value": "0px"
+      }
+    },
+    "small": {
+      "font-family": {
+        "value": "{font.family.brand.value}"
+      },
+      "font-weight": {
+        "value": "{font.weight.400.value}"
+      },
+      "font-size": {
+        "value": "36px"
+      },
+      "line-height": {
+        "value": "44px"
+      },
+      "letter-spacing": {
+        "value": "0px"
+      }
     }
   }
 }

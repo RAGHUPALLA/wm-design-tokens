@@ -1,0 +1,17 @@
+{
+  "header": {
+    "appearances": {
+      "new-variant": {
+        "mapping": {}
+      }
+    },
+    "meta": {
+      "appearances": {
+        "new-variant": {
+          "source": "aira",
+          "description": "Default page-header variant"
+        }
+      }
+    }
+  }
+}

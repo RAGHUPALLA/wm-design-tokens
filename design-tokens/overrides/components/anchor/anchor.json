@@ -1,32 +1,16 @@
 {
-  "anchor" : {
-    "mapping" : {
-      "color" : {
-        "@" : {
-          "value" : "{color.info.@.value}"
+  "anchor": {
+    "appearances": {
+      "new-variant": {
+        "mapping": {}
+      }
+    },
+    "meta": {
+      "appearances": {
+        "new-variant": {
+          "source": "aira",
+          "description": "Default anchor variant"
         }
-      },
-      "gap" : {
-        "value" : "{space.1.value}"
-      },
-      "icon" : {
-        "size" : {
-          "value" : "{icon.size.@.value}"
-        }
-      },
-      "image" : {
-        "size" : {
-          "value" : "{icon.size.@.value}"
-        },
-        "radius" : {
-          "value" : "{radius.circle.value}"
-        }
-      },
-      "font-family" : {
-        "value" : "{body.medium.font-family.value}"
-      },
-      "line-height" : {
-        "value" : "{body.large.line-height.value}"
       }
     }
   }

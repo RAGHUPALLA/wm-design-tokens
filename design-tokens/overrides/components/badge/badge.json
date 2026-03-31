@@ -1,0 +1,23 @@
+{
+  "badge": {
+    "appearances": {
+      "new-variant": {
+        "mapping": {
+          "inline": {
+            "padding": {
+              "value": "{space.2.value}"
+            }
+          }
+        }
+      }
+    },
+    "meta": {
+      "appearances": {
+        "new-variant": {
+          "source": "aira",
+          "description": "Default badge variant"
+        }
+      }
+    }
+  }
+}

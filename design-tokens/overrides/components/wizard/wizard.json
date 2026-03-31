@@ -1,0 +1,34 @@
+{
+  "wizard": {
+    "appearances": {
+      "new-variant": {
+        "mapping": {
+          "background": {
+            "value": "{color.surface.@.value}"
+          },
+          "border": {
+            "radius": {
+              "value": "{radius.xs.value}"
+            }
+          },
+          "shadow": {
+            "value": "{elevation.shadow.1.value}"
+          },
+          "heading": {
+            "padding": {
+              "value": "{space.7.value} {space.0.value} {space.7.value} {space.7.value}"
+            }
+          }
+        }
+      }
+    },
+    "meta": {
+      "appearances": {
+        "new-variant": {
+          "source": "aira",
+          "description": "Default wizard variant"
+        }
+      }
+    }
+  }
+}

@@ -1,7 +1,37 @@
 {
-  "radius" : {
-    "base" : {
-      "value" : "2px"
+  "radius": {
+    "base": {
+      "value": "2px"
+    },
+    "none": {
+      "value": "{radius.base.value}"
+    },
+    "xxs": {
+      "value": "{radius.base.value}"
+    },
+    "xs": {
+      "value": "{radius.base.value}"
+    },
+    "sm": {
+      "value": "{radius.base.value}"
+    },
+    "md": {
+      "value": "{radius.base.value}"
+    },
+    "lg": {
+      "value": "{radius.base.value}"
+    },
+    "xl": {
+      "value": "{radius.base.value}"
+    },
+    "xxl": {
+      "value": "{radius.base.value}"
+    },
+    "pill": {
+      "value": "1000px"
+    },
+    "circle": {
+      "value": "50%"
     }
   }
 }

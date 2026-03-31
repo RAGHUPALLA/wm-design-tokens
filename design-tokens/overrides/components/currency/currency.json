@@ -1,0 +1,17 @@
+{
+  "currency": {
+    "appearances": {
+      "new-variant": {
+        "mapping": {}
+      }
+    },
+    "meta": {
+      "appearances": {
+        "new-variant": {
+          "source": "aira",
+          "description": "Default currency variant"
+        }
+      }
+    }
+  }
+}

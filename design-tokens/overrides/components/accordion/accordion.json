@@ -1,17 +1,15 @@
 {
-  "accordion" : {
-    "appearances" : {
-      "default" : {
-        "variantGroups" : {
-          "status" : {
-            "default" : {
-              "background" : {
-                "@" : {
-                  "value" : "{color.border.@.value}"
-                }
-              }
-            }
-          }
+  "accordion": {
+    "appearances": {
+      "new-variant": {
+        "mapping": {}
+      }
+    },
+    "meta": {
+      "appearances": {
+        "new-variant": {
+          "source": "aira",
+          "description": "Default accordion variant"
         }
       }
     }

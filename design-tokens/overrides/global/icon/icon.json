@@ -1,8 +1,32 @@
 {
-  "icon" : {
-    "size" : {
-      "@" : {
-        "value" : "24px"
+  "icon": {
+    "size": {
+      "@": {
+        "value": "24px"
+      },
+      "xs": {
+        "value": "{icon.size.@.value}"
+      },
+      "sm": {
+        "value": "{icon.size.@.value}"
+      },
+      "md": {
+        "value": "{icon.size.@.value}"
+      },
+      "lg": {
+        "value": "{icon.size.@.value}"
+      },
+      "2x": {
+        "value": "{icon.size.@.value}"
+      },
+      "3x": {
+        "value": "{icon.size.@.value}"
+      },
+      "4x": {
+        "value": "{icon.size.@.value}"
+      },
+      "5x": {
+        "value": "{icon.size.@.value}"
       }
     }
   }

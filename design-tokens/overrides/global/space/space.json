@@ -1,7 +1,46 @@
 {
-  "space" : {
-    "rule" : {
-      "value" : "4px"
+  "space": {
+    "0": {
+      "value": "{space.rule.value}"
+    },
+    "1": {
+      "value": "{space.rule.value}"
+    },
+    "2": {
+      "value": "{space.rule.value}"
+    },
+    "3": {
+      "value": "{space.rule.value}"
+    },
+    "4": {
+      "value": "{space.rule.value}"
+    },
+    "5": {
+      "value": "{space.rule.value}"
+    },
+    "6": {
+      "value": "{space.rule.value}"
+    },
+    "7": {
+      "value": "{space.rule.value}"
+    },
+    "8": {
+      "value": "{space.rule.value}"
+    },
+    "9": {
+      "value": "{space.rule.value}"
+    },
+    "10": {
+      "value": "{space.rule.value}"
+    },
+    "11": {
+      "value": "{space.rule.value}"
+    },
+    "12": {
+      "value": "{space.rule.value}"
+    },
+    "rule": {
+      "value": "4px"
     }
   }
 }

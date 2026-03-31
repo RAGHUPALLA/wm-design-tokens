@@ -1,42 +1,15 @@
 {
-  "label" : {
-    "appearances" : {
-      "new-variant" : {
-        "mapping" : {
-          "color" : {
-            "value" : "{color.primary.@.value}"
-          },
-          "margin" : {
-            "value" : "{space.0.value}"
-          },
-          "padding" : {
-            "value" : "{space.0.value}"
-          },
-          "font-size" : {
-            "value" : "{body.medium.font-size.value}"
-          },
-          "font-weight" : {
-            "value" : "{body.medium.font-weight.value}"
-          },
-          "line-height" : {
-            "value" : "{body.medium.line-height.value}"
-          },
-          "letter-spacing" : {
-            "value" : "{body.medium.letter-spacing.value}"
-          },
-          "font-family" : {
-            "value" : "{body.medium.font-family.value}"
-          },
-          "background-color" : {
-            "value" : "none"
-          }
-        }
+  "label": {
+    "appearances": {
+      "new-variant": {
+        "mapping": {}
       }
     },
-    "meta" : {
-      "appearances" : {
-        "new-variant" : {
-          "source" : "user"
+    "meta": {
+      "appearances": {
+        "new-variant": {
+          "source": "aira",
+          "description": "Default label variant"
         }
       }
     }

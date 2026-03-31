@@ -1,8 +1,47 @@
 {
-  "border" : {
-    "width" : {
-      "base" : {
-        "value" : "1px"
+  "border": {
+    "width": {
+      "0": {
+        "value": "{border.width.base.value}"
+      },
+      "1": {
+        "value": "{border.width.base.value}"
+      },
+      "2": {
+        "value": "{border.width.base.value}"
+      },
+      "3": {
+        "value": "{border.width.base.value}"
+      },
+      "4": {
+        "value": "{border.width.base.value}"
+      },
+      "5": {
+        "value": "{border.width.base.value}"
+      },
+      "6": {
+        "value": "{border.width.base.value}"
+      },
+      "7": {
+        "value": "{border.width.base.value}"
+      },
+      "8": {
+        "value": "{border.width.base.value}"
+      },
+      "9": {
+        "value": "{border.width.base.value}"
+      },
+      "10": {
+        "value": "{border.width.base.value}"
+      },
+      "11": {
+        "value": "{border.width.base.value}"
+      },
+      "12": {
+        "value": "{border.width.base.value}"
+      },
+      "base": {
+        "value": "1px"
       }
     }
   }

@@ -1,0 +1,17 @@
+{
+  "card": {
+    "appearances": {
+      "new-variant": {
+        "mapping": {}
+      }
+    },
+    "meta": {
+      "appearances": {
+        "new-variant": {
+          "source": "aira",
+          "description": "Default cards variant"
+        }
+      }
+    }
+  }
+}

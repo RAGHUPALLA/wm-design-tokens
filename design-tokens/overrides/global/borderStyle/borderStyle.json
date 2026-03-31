@@ -1,8 +1,38 @@
 {
-  "border" : {
-    "style" : {
-      "none" : {
-        "value" : "none"
+  "border": {
+    "style": {
+      "none": {
+        "value": "none"
+      },
+      "solid": {
+        "value": "solid"
+      },
+      "dotted": {
+        "value": "dotted"
+      },
+      "dashed": {
+        "value": "dashed"
+      },
+      "double": {
+        "value": "double"
+      },
+      "groove": {
+        "value": "groove"
+      },
+      "ridge": {
+        "value": "ridge"
+      },
+      "inset": {
+        "value": "inset"
+      },
+      "outset": {
+        "value": "outset"
+      },
+      "hidden": {
+        "value": "hidden"
+      },
+      "base": {
+        "value": "{border.style.solid.value}"
       }
     }
   }

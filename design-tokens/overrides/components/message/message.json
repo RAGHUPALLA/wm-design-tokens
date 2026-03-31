@@ -1,45 +1,16 @@
 {
-  "message" : {
-    "appearances" : {
-      "new-variant" : {
-        "mapping" : {
-          "container" : {
-            "background" : {
-              "value" : "{color.success.@.value}"
-            },
-            "color" : {
-              "value" : "{color.on-success.@.value}"
-            },
-            "border" : {
-              "color" : {
-                "value" : "{color.success.@.value}"
-              }
-            }
-          },
-          "font-family" : {
-            "value" : "{label.large.font-family.value}"
-          },
-          "font-weight" : {
-            "value" : "{label.large.font-weight.value}"
-          },
-          "font-size" : {
-            "value" : "{label.large.font-size.value}"
-          },
-          "line-height" : {
-            "value" : "{label.large.line-height.value}"
-          },
-          "letter-spacing" : {
-            "value" : "{label.large.letter-spacing.value}"
-          }
-        }
+  "message": {
+    "appearances": {
+      "new-variant": {
+        "mapping": {}
       },
-      "filled" : {
-        "variantGroups" : {
-          "status" : {
-            "success" : {
-              "container" : {
-                "background" : {
-                  "value" : "{color.success.@.value}"
+      "filled": {
+        "variantGroups": {
+          "status": {
+            "success": {
+              "container": {
+                "background": {
+                  "value": "{color.success.@.value}"
                 }
               }
             }
@@ -47,10 +18,11 @@
         }
       }
     },
-    "meta" : {
-      "appearances" : {
-        "new-variant" : {
-          "source" : "user"
+    "meta": {
+      "appearances": {
+        "new-variant": {
+          "source": "aira",
+          "description": "Default message variant"
         }
       }
     }

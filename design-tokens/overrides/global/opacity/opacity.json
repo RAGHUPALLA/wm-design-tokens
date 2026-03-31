@@ -1,0 +1,13 @@
+{
+  "opacity": {
+    "hover": {
+      "value": "8%"
+    },
+    "focus": {
+      "value": "12%"
+    },
+    "active": {
+      "value": "16%"
+    }
+  }
+}
