@@ -1,0 +1,40 @@
+{
+  "nav" : {
+    "mapping" : {
+      "background" : {
+        "value" : "#FFFFFF"
+      },
+      "item" : {
+        "background" : {
+          "value" : "#FFFFFF"
+        }
+      },
+      "padding" : {
+        "value" : "{space.0.value}{space.2.value}"
+      }
+    },
+    "appearances" : {
+      "pills-stacked" : {
+        "mapping" : {
+          "background" : {
+            "value" : "#ffffff"
+          }
+        }
+      },
+      "tabs" : {
+        "mapping" : {
+          "background" : {
+            "value" : "#FFFFFF"
+          }
+        }
+      },
+      "tabs-stacked" : {
+        "mapping" : {
+          "background" : {
+            "value" : "#FFFFFF"
+          }
+        }
+      }
+    }
+  }
+}

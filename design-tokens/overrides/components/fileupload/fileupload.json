@@ -1,15 +1,225 @@
 {
-  "file-upload": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
+  "file-upload" : {
+    "mapping" : {
+      "title" : {
+        "color" : {
+          "value" : "{color.secondary.@.value}"
+        }
+      },
+      "size" : {
+        "color" : {
+          "value" : "{color.secondary.@.value}"
+        }
+      },
+      "drop" : {
+        "box" : {
+          "background" : {
+            "value" : "#E2F2FC"
+          },
+          "gap" : {
+            "value" : "{space.0.value}"
+          },
+          "bottom" : {
+            "space" : {
+              "value" : "{space.6.value}"
+            }
+          }
+        }
+      },
+      "message" : {
+        "caption" : {
+          "color" : {
+            "value" : "{color.secondary.@.value}"
+          }
+        },
+        "anchor" : {
+          "color" : {
+            "value" : "{color.secondary.@.value}"
+          }
+        }
+      },
+      "status" : {
+        "radius" : {
+          "value" : "{radius.xs.value}"
+        },
+        "border" : {
+          "color" : {
+            "value" : "{color.primary.@.value}"
+          }
+        },
+        "background" : {
+          "value" : "#F2F3F4"
+        },
+        "padding" : {
+          "value" : "{space.6.value}"
+        }
+      },
+      "multi" : {
+        "file" : {
+          "radius" : {
+            "value" : "{radius.sm.value}"
+          }
+        }
+      },
+      "min-height" : {
+        "value" : "6rem"
+      },
+      "gap" : {
+        "value" : "{space.4.value}"
       }
     },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default fileupload variant"
+    "appearances" : {
+      "bmfile" : {
+        "mapping" : {
+          "min-height" : {
+            "value" : "6rem"
+          },
+          "status" : {
+            "padding" : {
+              "value" : "{space.5.value}"
+            },
+            "border" : {
+              "color" : {
+                "value" : "{color.primary.@.value}"
+              },
+              "width" : {
+                "value" : "{border.width.0.value}"
+              },
+              "style" : {
+                "value" : "{border.style.none.value}"
+              }
+            },
+            "background" : {
+              "value" : "#F2F3F4"
+            },
+            "radius" : {
+              "value" : "{radius.sm.value}"
+            },
+            "bottom" : {
+              "space" : {
+                "value" : "{space.1.value}"
+              }
+            }
+          },
+          "bottom" : {
+            "space" : {
+              "value" : "{space.1.value}"
+            }
+          },
+          "title" : {
+            "color" : {
+              "value" : "{color.secondary.@.value}"
+            },
+            "font-size" : {
+              "value" : "{body.medium.font-size.value}"
+            },
+            "font-family" : {
+              "value" : "{body.large.font-family.value}"
+            },
+            "font-weight" : {
+              "value" : "{body.medium.font-weight.value}"
+            },
+            "line-height" : {
+              "value" : "{body.medium.line-height.value}"
+            }
+          },
+          "size" : {
+            "color" : {
+              "value" : "{color.secondary.label.text.value}"
+            },
+            "font" : {
+              "size" : {
+                "value" : "{body.small.font-size.value}"
+              },
+              "family" : {
+                "value" : "{body.small.font-family.value}"
+              },
+              "weight" : {
+                "value" : "{font.weight.400.value}"
+              }
+            },
+            "line-height" : {
+              "value" : "{body.small.line-height.value}"
+            }
+          },
+          "gap" : {
+            "value" : "{space.4.value}"
+          },
+          "drop" : {
+            "box" : {
+              "gap" : {
+                "value" : "{space.0.value}"
+              },
+              "bottom" : {
+                "space" : {
+                  "value" : "{space.6.value}"
+                }
+              },
+              "background" : {
+                "value" : "#E2F2FC"
+              }
+            }
+          },
+          "multi" : {
+            "file" : {
+              "radius" : {
+                "value" : "{radius.sm.value}"
+              }
+            }
+          },
+          "message" : {
+            "caption" : {
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "font-size" : {
+                "value" : "{body.large.font-size.value}"
+              },
+              "font-family" : {
+                "value" : "{font.family.brand.value}"
+              },
+              "font-weight" : {
+                "value" : "{font.weight.400.value}"
+              },
+              "line-height" : {
+                "value" : "{body.large.line-height.value}"
+              }
+            },
+            "anchor" : {
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "font-size" : {
+                "value" : "{body.medium.font-size.value}"
+              },
+              "font-family" : {
+                "value" : "{font.family.brand.value}"
+              },
+              "font-weight" : {
+                "value" : "{font.weight.400.value}"
+              },
+              "line-height" : {
+                "value" : "{body.medium.line-height.value}"
+              }
+            }
+          },
+          "media" : {
+            "icon" : {
+              "size" : {
+                "value" : "{icon.size.@.value}"
+              },
+              "padding" : {
+                "value" : "{space.1.value}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "meta" : {
+      "appearances" : {
+        "bmfile" : {
+          "source" : "user"
         }
       }
     }

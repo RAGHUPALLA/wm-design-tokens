@@ -1,15 +1,302 @@
 {
-  "aside-left": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
-      }
-    },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default page-left-nav variant"
+  "aside-left" : {
+    "mapping" : { },
+    "appearances" : {
+      "full" : {
+        "variantGroups" : {
+          "status" : {
+            "nav-drawer" : {
+              "states" : {
+                "active" : {
+                  "nav" : {
+                    "item" : {
+                      "background" : {
+                        "value" : "{color.primary.light.value}"
+                      },
+                      "icon" : {
+                        "background" : {
+                          "value" : "{color.transparent.value}"
+                        },
+                        "color" : {
+                          "value" : "{color.secondary.@.value}"
+                        }
+                      }
+                    },
+                    "submenu" : {
+                      "item" : {
+                        "background" : {
+                          "value" : "{color.primary.light.value}"
+                        },
+                        "color" : {
+                          "value" : "{color.secondary.@.value}"
+                        }
+                      }
+                    }
+                  }
+                },
+                "hover" : {
+                  "nav" : {
+                    "item" : {
+                      "background" : {
+                        "value" : "{color.primary.container.@.value}"
+                      },
+                      "color" : {
+                        "value" : "{color.secondary.@.value}"
+                      },
+                      "icon" : {
+                        "background" : {
+                          "value" : "transparent"
+                        },
+                        "color" : {
+                          "value" : "{color.secondary.@.value}"
+                        }
+                      }
+                    },
+                    "submenu" : {
+                      "item" : {
+                        "background" : {
+                          "value" : "{color.transparent.value}"
+                        },
+                        "color" : {
+                          "value" : "{color.secondary.@.value}"
+                        }
+                      }
+                    }
+                  }
+                },
+                "focus" : {
+                  "nav" : {
+                    "item" : {
+                      "background" : {
+                        "value" : "{color.primary.container.@.value}"
+                      },
+                      "icon" : {
+                        "background" : {
+                          "value" : "{color.transparent.value}"
+                        },
+                        "color" : {
+                          "value" : "{color.secondary.@.value}"
+                        }
+                      }
+                    },
+                    "submenu" : {
+                      "item" : {
+                        "background" : {
+                          "value" : "{color.primary.container.@.value}"
+                        },
+                        "color" : {
+                          "value" : "{color.secondary.@.value}"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "nav" : {
+                "background" : {
+                  "value" : "{color.surface.@.value}"
+                },
+                "item" : {
+                  "background" : {
+                    "value" : "{color.surface.@.value}"
+                  },
+                  "color" : {
+                    "value" : "{color.secondary.@.value}"
+                  },
+                  "icon" : {
+                    "color" : {
+                      "value" : "{color.secondary.@.value}"
+                    },
+                    "background" : {
+                      "value" : "{color.transparent.value}"
+                    },
+                    "size" : {
+                      "value" : "20px"
+                    },
+                    "width" : {
+                      "value" : "20px"
+                    },
+                    "height" : {
+                      "value" : "20px"
+                    }
+                  },
+                  "indicator" : {
+                    "color" : {
+                      "value" : "{color.secondary.@.value}"
+                    },
+                    "width" : {
+                      "value" : "{space.0.value}"
+                    }
+                  },
+                  "padding" : {
+                    "value" : "{space.3.value} {space.4.value}"
+                  },
+                  "border" : {
+                    "radius" : {
+                      "value" : "{radius.lg.value}"
+                    }
+                  },
+                  "gap" : {
+                    "value" : "{space.2.value}"
+                  },
+                  "font" : {
+                    "family" : {
+                      "value" : "{body.medium.font-family.value}"
+                    },
+                    "size" : {
+                      "value" : "{body.medium.font-size.value}"
+                    },
+                    "weight" : {
+                      "value" : "{body.medium.font-weight.value}"
+                    }
+                  },
+                  "line-height" : {
+                    "value" : "{body.medium.line-height.value}"
+                  },
+                  "min" : {
+                    "height" : {
+                      "value" : "{space.12.value}"
+                    }
+                  }
+                },
+                "submenu" : {
+                  "background" : {
+                    "value" : "{color.surface.@.value}"
+                  },
+                  "item" : {
+                    "color" : {
+                      "value" : "{color.secondary.@.value}"
+                    },
+                    "font" : {
+                      "family" : {
+                        "value" : "{body.medium.font-family.value}"
+                      },
+                      "size" : {
+                        "value" : "{body.medium.font-size.value}"
+                      },
+                      "weight" : {
+                        "value" : "{body.medium.font-weight.value}"
+                      }
+                    },
+                    "line-height" : {
+                      "value" : "{body.medium.line-height.value}"
+                    },
+                    "border" : {
+                      "radius" : {
+                        "value" : "{radius.lg.value}"
+                      }
+                    },
+                    "height" : {
+                      "value" : "46px"
+                    }
+                  },
+                  "border" : {
+                    "radius" : {
+                      "value" : "{radius.none.value}"
+                    }
+                  }
+                },
+                "width" : {
+                  "value" : "{space.nav.width.value}"
+                },
+                "letter-spacing" : {
+                  "value" : "{body.medium.letter-spacing.value}"
+                },
+                "padding" : {
+                  "value" : "{space.0.value}{space.2.value}{space.4.value}{space.2.value}"
+                },
+                "shadow" : {
+                  "value" : "{elevation.shadow.regular-1.value}"
+                },
+                "gap" : {
+                  "value" : "{space.1.value}"
+                },
+                "color" : {
+                  "value" : "{color.secondary.@.value}"
+                }
+              }
+            },
+            "nav-rail" : {
+              "nav" : {
+                "width" : {
+                  "value" : "0px"
+                },
+                "item" : {
+                  "anchor-display" : {
+                    "value" : "none"
+                  }
+                },
+                "color" : {
+                  "value" : "{color.secondary.@.value}"
+                }
+              },
+              "states" : {
+                "active" : {
+                  "nav" : {
+                    "item" : {
+                      "background" : {
+                        "value" : "{color.primary.container.@.value}"
+                      }
+                    },
+                    "submenu" : {
+                      "item" : {
+                        "background" : {
+                          "value" : "{color.primary.container.@.value}"
+                        }
+                      }
+                    }
+                  }
+                },
+                "hover" : {
+                  "nav" : {
+                    "submenu" : {
+                      "item" : {
+                        "background" : {
+                          "value" : "{color.primary.container.@.value}"
+                        }
+                      }
+                    }
+                  }
+                },
+                "focus" : {
+                  "nav" : {
+                    "item" : {
+                      "background" : {
+                        "value" : "{color.primary.container.@.value}"
+                      }
+                    },
+                    "submenu" : {
+                      "item" : {
+                        "background" : {
+                          "value" : "{color.primary.container.@.value}"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "clipped" : {
+        "variantGroups" : {
+          "status" : {
+            "nav-drawer" : {
+              "nav" : {
+                "color" : {
+                  "value" : "{color.secondary.@.value}"
+                }
+              }
+            },
+            "nav-rail" : {
+              "nav" : {
+                "color" : {
+                  "value" : "{color.secondary.@.value}"
+                }
+              }
+            }
+          }
         }
       }
     }

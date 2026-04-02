@@ -1,0 +1,10 @@
+{
+  "app" : {
+    "color" : {
+      "value" : "{color.tertiary.@.value}"
+    },
+    "background" : {
+      "value" : "#FAFBFC"
+    }
+  }
+}

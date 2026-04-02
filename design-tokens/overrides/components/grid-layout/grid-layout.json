@@ -1,15 +1,40 @@
 {
-  "grid-layout": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
+  "grid-layout" : {
+    "mapping" : {
+      "column" : {
+        "padding" : {
+          "value" : "{space.0.value}"
+        }
+      },
+      "row" : {
+        "gap" : {
+          "value" : "{space.4.value}"
+        }
       }
     },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default grid-layout variant"
+    "appearances" : {
+      "condensed" : {
+        "mapping" : {
+          "width" : {
+            "value" : "100%"
+          },
+          "row" : {
+            "gap" : {
+              "value" : "{space.0.value}"
+            }
+          },
+          "column" : {
+            "padding" : {
+              "value" : "{space.0.value}"
+            }
+          }
+        }
+      }
+    },
+    "meta" : {
+      "appearances" : {
+        "condensed" : {
+          "source" : "user"
         }
       }
     }

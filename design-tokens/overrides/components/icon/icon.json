@@ -1,16 +1,585 @@
 {
-  "icon": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
+  "icon" : {
+    "appearances" : {
+      "Orders" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.secondary.@.value}"
+          },
+          "font-size" : {
+            "value" : "{icon.size.md.value}"
+          },
+          "min-width" : {
+            "value" : "{icon.size.md.value}"
+          },
+          "width" : {
+            "value" : "{icon.size.md.value}"
+          },
+          "height" : {
+            "value" : "{icon.size.md.value}"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "collapse" : {
+        "mapping" : {
+          "color" : {
+            "value" : "#B3BBCE"
+          },
+          "font-size" : {
+            "value" : "{icon.size.sm.value}"
+          },
+          "min-width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "height" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "primary" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.primary.@.value}"
+          },
+          "font-size" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "min-width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "height" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "danger" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.error.@.value}"
+          },
+          "font-size" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "min-width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "height" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "warning" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.warning.@.value}"
+          },
+          "font-size" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "min-width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "height" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "success" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.success.@.value}"
+          },
+          "font-size" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "min-width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "height" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "secondary" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.secondary.@.value}"
+          },
+          "font-size" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "min-width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "height" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "xxs-warning" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.warning.@.value}"
+          },
+          "font-size" : {
+            "value" : "{space.2.value}"
+          },
+          "min-width" : {
+            "value" : "{icon.size.xs.value}"
+          },
+          "width" : {
+            "value" : "{icon.size.xs.value}"
+          },
+          "height" : {
+            "value" : "{icon.size.xs.value}"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "xxs-success" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.success.@.value}"
+          },
+          "font-size" : {
+            "value" : "{space.2.value}"
+          },
+          "min-width" : {
+            "value" : "{icon.size.xs.value}"
+          },
+          "width" : {
+            "value" : "{icon.size.xs.value}"
+          },
+          "height" : {
+            "value" : "{icon.size.xs.value}"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "held" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.inactive.value}"
+          },
+          "font-size" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "min-width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "width" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "height" : {
+            "value" : "{icon.size.@.value}"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "default" : {
+        "variantGroups" : {
+          "size" : {
+            "sm" : {
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "font-size" : {
+                "value" : "{icon.size.sm.value}"
+              },
+              "height" : {
+                "value" : "{icon.size.sm.value}"
+              }
+            },
+            "xs" : {
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            },
+            "md" : {
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            },
+            "2x" : {
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            },
+            "lg" : {
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            },
+            "3x" : {
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            },
+            "4x" : {
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          }
+        }
+      },
+      "muted-f-14" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.secondary.label.text.value}"
+          },
+          "font-size" : {
+            "value" : "14px"
+          },
+          "min-width" : {
+            "value" : "14px"
+          },
+          "width" : {
+            "value" : "14px"
+          },
+          "height" : {
+            "value" : "14px"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "primary-f-10" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.primary.@.value}"
+          },
+          "font-size" : {
+            "value" : "10px"
+          },
+          "min-width" : {
+            "value" : "10px"
+          },
+          "width" : {
+            "value" : "10px"
+          },
+          "height" : {
+            "value" : "10px"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "size-16" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.secondary.@.value}"
+          },
+          "font-size" : {
+            "value" : "16px"
+          },
+          "min-width" : {
+            "value" : "16px"
+          },
+          "width" : {
+            "value" : "16px"
+          },
+          "height" : {
+            "value" : "16px"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "size-14" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.secondary.@.value}"
+          },
+          "font-size" : {
+            "value" : "14px"
+          },
+          "min-width" : {
+            "value" : "14px"
+          },
+          "width" : {
+            "value" : "14px"
+          },
+          "height" : {
+            "value" : "14px"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "size-24" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.secondary.@.value}"
+          },
+          "font-size" : {
+            "value" : "{icon.size.md.value}"
+          },
+          "min-width" : {
+            "value" : "{icon.size.md.value}"
+          },
+          "width" : {
+            "value" : "{icon.size.md.value}"
+          },
+          "height" : {
+            "value" : "{icon.size.md.value}"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "icon-14-success" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.success.@.value}"
+          },
+          "font-size" : {
+            "value" : "14px"
+          },
+          "min-width" : {
+            "value" : "14px"
+          },
+          "width" : {
+            "value" : "14px"
+          },
+          "height" : {
+            "value" : "14px"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "icon-14-danger" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.error.@.value}"
+          },
+          "font-size" : {
+            "value" : "14px"
+          },
+          "min-width" : {
+            "value" : "14px"
+          },
+          "width" : {
+            "value" : "14px"
+          },
+          "height" : {
+            "value" : "14px"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "sm-success" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.success.@.value}"
+          },
+          "font-size" : {
+            "value" : "{icon.size.sm.value}"
+          },
+          "min-width" : {
+            "value" : "{icon.size.sm.value}"
+          },
+          "width" : {
+            "value" : "{icon.size.sm.value}"
+          },
+          "height" : {
+            "value" : "{icon.size.sm.value}"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "sm-danger" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.error.@.value}"
+          },
+          "font-size" : {
+            "value" : "{icon.size.sm.value}"
+          },
+          "min-width" : {
+            "value" : "{icon.size.sm.value}"
+          },
+          "width" : {
+            "value" : "{icon.size.sm.value}"
+          },
+          "height" : {
+            "value" : "{icon.size.sm.value}"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "info-f-10" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.info.@.value}"
+          },
+          "font-size" : {
+            "value" : "10px"
+          },
+          "min-width" : {
+            "value" : "10px"
+          },
+          "width" : {
+            "value" : "10px"
+          },
+          "height" : {
+            "value" : "10px"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
+      },
+      "icon-14-white" : {
+        "mapping" : {
+          "color" : {
+            "value" : "{color.white.@.value}"
+          },
+          "font-size" : {
+            "value" : "14px"
+          },
+          "min-width" : {
+            "value" : "14px"
+          },
+          "width" : {
+            "value" : "14px"
+          },
+          "height" : {
+            "value" : "14px"
+          },
+          "gap" : {
+            "value" : "{space.1.value}"
+          }
+        }
       }
     },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default icon variant"
+    "meta" : {
+      "appearances" : {
+        "primary-f-10" : {
+          "source" : "user"
+        },
+        "icon-14-success" : {
+          "source" : "user"
+        },
+        "icon-14-danger" : {
+          "source" : "user"
+        },
+        "sm-success" : {
+          "source" : "user"
+        },
+        "sm-danger" : {
+          "source" : "user"
+        },
+        "info-f-10" : {
+          "source" : "user"
+        },
+        "icon-14-white" : {
+          "source" : "user"
         }
+      }
+    }
+  },
+  "meta" : {
+    "appearances" : {
+      "Orders" : {
+        "source" : "user"
+      },
+      "collapse" : {
+        "source" : "user"
+      },
+      "primary" : {
+        "source" : "user"
+      },
+      "danger" : {
+        "source" : "user"
+      },
+      "warning" : {
+        "source" : "user"
+      },
+      "success" : {
+        "source" : "user"
+      },
+      "secondary" : {
+        "source" : "user"
+      },
+      "xxs-warning" : {
+        "source" : "user"
+      },
+      "xxs-success" : {
+        "source" : "user"
+      },
+      "held" : {
+        "source" : "user"
+      },
+      "muted-f-14" : {
+        "source" : "user"
+      },
+      "size-16" : {
+        "source" : "user"
+      },
+      "size-14" : {
+        "source" : "user"
+      },
+      "size-24" : {
+        "source" : "user"
       }
     }
   }

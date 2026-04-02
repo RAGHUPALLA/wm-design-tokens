@@ -1,16 +1,44 @@
 {
-  "header": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
-      }
-    },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default page-header variant"
+  "header" : {
+    "mapping" : {
+      "border" : {
+        "width" : {
+          "value" : "0px"
+        },
+        "color" : {
+          "value" : "{color.white.@.value}"
         }
+      },
+      "color" : {
+        "value" : "{color.secondary.@.value}"
+      },
+      "link" : {
+        "color" : {
+          "@" : {
+            "value" : "{color.secondary.@.value}"
+          },
+          "hover" : {
+            "value" : "{color.primary.@.value}"
+          },
+          "active" : {
+            "value" : "{color.primary.@.value}"
+          }
+        },
+        "size" : {
+          "value" : "{h5.font-size.value}"
+        }
+      },
+      "background" : {
+        "value" : "{color.surface.5.value}"
+      },
+      "padding" : {
+        "value" : "{space.6.value} {space.6.value} {space.4.value} {space.6.value} "
+      },
+      "height" : {
+        "value" : "{space.10.value}"
+      },
+      "z-index" : {
+        "value" : "99"
       }
     }
   }

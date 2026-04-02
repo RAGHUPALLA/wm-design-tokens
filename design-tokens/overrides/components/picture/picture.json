@@ -1,15 +1,74 @@
 {
-  "picture": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
+  "picture" : {
+    "appearances" : {
+      "logo-small" : {
+        "mapping" : {
+          "width" : {
+            "value" : "auto"
+          },
+          "height" : {
+            "value" : "30px"
+          },
+          "radius" : {
+            "value" : "{radius.none.value}"
+          },
+          "padding" : {
+            "value" : "{space.0.value}"
+          },
+          "border" : {
+            "color" : {
+              "value" : "{color.border.@.value}"
+            },
+            "style" : {
+              "value" : "{border.style.none.value}"
+            },
+            "width" : {
+              "value" : "{border.width.0.value}"
+            }
+          },
+          "background" : {
+            "value" : "{color.transparent.value}"
+          }
+        }
+      },
+      "empty" : {
+        "mapping" : {
+          "width" : {
+            "value" : "auto"
+          },
+          "height" : {
+            "value" : "150px"
+          },
+          "radius" : {
+            "value" : "0"
+          },
+          "padding" : {
+            "value" : "{space.0.value}"
+          },
+          "border" : {
+            "color" : {
+              "value" : "none"
+            },
+            "style" : {
+              "value" : "none"
+            },
+            "width" : {
+              "value" : "{border.width.0.value}"
+            }
+          },
+          "background" : {
+            "value" : "none"
+          }
+        }
       }
     },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default picture variant"
+    "meta" : {
+      "appearances" : {
+        "logo-small" : {
+          "source" : "user"
+        },
+        "empty" : {
+          "source" : "user"
         }
       }
     }

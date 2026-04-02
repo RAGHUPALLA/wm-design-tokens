@@ -1,15 +1,171 @@
 {
-  "radiobutton": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
+  "radioset" : {
+    "mapping" : {
+      "label" : {
+        "color" : {
+          "@" : {
+            "value" : "{color.secondary.@.value}"
+          }
+        },
+        "font-size" : {
+          "value" : "{body.medium.font-family.value}"
+        },
+        "font-family" : {
+          "value" : "{body.medium.font-family.value}"
+        },
+        "font-weight" : {
+          "value" : "{body.small.font-weight.value}"
+        }
+      },
+      "states" : {
+        "checked" : {
+          "label" : {
+            "color" : {
+              "@" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "{color.primary.@.value}"
+              }
+            }
+          }
+        },
+        "hover" : {
+          "state" : {
+            "layer" : {
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          }
+        },
+        "focus" : {
+          "state" : {
+            "layer" : {
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          }
+        },
+        "active" : {
+          "state" : {
+            "layer" : {
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          }
+        }
+      },
+      "border" : {
+        "color" : {
+          "value" : "{color.secondary.@.value}"
+        }
+      },
+      "state" : {
+        "layer" : {
+          "color" : {
+            "value" : "{color.primary.@.value}"
+          },
+          "size" : {
+            "value" : "24px"
+          }
+        }
+      },
+      "size" : {
+        "value" : "20px"
+      },
+      "indicator" : {
+        "size" : {
+          "value" : "10px"
+        }
+      },
+      "gap" : {
+        "value" : "{space.2.value}"
       }
-    },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default radioset variant"
+    }
+  },
+  "radiobutton" : {
+    "mapping" : {
+      "label" : {
+        "color" : {
+          "@" : {
+            "value" : "{color.secondary.@.value}"
+          }
+        },
+        "font-family" : {
+          "value" : "{body.medium.font-family.value}"
+        },
+        "font-size" : {
+          "value" : "{body.medium.font-size.value}"
+        },
+        "font-weight" : {
+          "value" : "500"
+        },
+        "letter-spacing" : {
+          "value" : "{body.large.letter-spacing.value}"
+        },
+        "line-height" : {
+          "value" : "{body.large.line-height.value}"
+        }
+      },
+      "state" : {
+        "layer" : {
+          "color" : {
+            "value" : "{color.secondary.@.value}"
+          },
+          "size" : {
+            "value" : "24px"
+          }
+        }
+      },
+      "border" : {
+        "color" : {
+          "value" : "#506089"
+        },
+        "width" : {
+          "value" : "{border.width.2.value}"
+        }
+      },
+      "size" : {
+        "value" : "{space.5.value}"
+      },
+      "indicator" : {
+        "size" : {
+          "value" : "10px"
+        }
+      },
+      "gap" : {
+        "value" : "{space.2.value}"
+      },
+      "states" : {
+        "hover" : {
+          "state" : {
+            "layer" : {
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          }
+        },
+        "checked" : {
+          "border" : {
+            "color" : {
+              "value" : "{color.primary.@.value}"
+            }
+          },
+          "label" : {
+            "color" : {
+              "@" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          }
         }
       }
     }

@@ -1,15 +1,59 @@
 {
-  "pagination": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
+  "pagination" : {
+    "mapping" : {
+      "page-link" : {
+        "radius" : {
+          "value" : "{radius.lg.value}"
+        }
       }
     },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default pagination variant"
+    "appearances" : {
+      "basic" : {
+        "mapping" : {
+          "states" : {
+            "active" : {
+              "page-link" : {
+                "opacity" : {
+                  "value" : "2"
+                }
+              }
+            },
+            "hover" : {
+              "page-link" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                },
+                "opacity" : {
+                  "value" : "1"
+                },
+                "color" : {
+                  "value" : "{color.secondary.@.value}"
+                }
+              },
+              "nav-indicator" : {
+                "previous" : {
+                  "color" : {
+                    "value" : "{color.white.@.value}"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "page-link" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                },
+                "color" : {
+                  "value" : "{color.on-surface.@.value}"
+                }
+              }
+            }
+          },
+          "page-link" : {
+            "color" : {
+              "value" : "{color.on-surface.@.value}"
+            }
+          }
         }
       }
     }

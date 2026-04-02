@@ -1,15 +1,165 @@
 {
-  "toast": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
+  "toast" : {
+    "mapping" : {
+      "container" : {
+        "border" : {
+          "color" : {
+            "value" : "#001B5C"
+          },
+          "radius" : {
+            "value" : "{radius.xs.value}"
+          }
+        },
+        "background" : {
+          "value" : "#001B5C"
+        },
+        "color" : {
+          "value" : "#001B5C"
+        }
+      },
+      "icon" : {
+        "@" : {
+          "value" : "\"\\e980\""
+        }
+      },
+      "title" : {
+        "font-family" : {
+          "value" : "{body.medium.font-family.value}"
+        },
+        "font-weight" : {
+          "value" : "{body.medium.font-weight.value}"
+        },
+        "font-size" : {
+          "value" : "{body.medium.font-size.value}"
+        },
+        "line-height" : {
+          "value" : "{body.medium.line-height.value}"
+        },
+        "letter-spacing" : {
+          "value" : "{body.medium.letter-spacing.value}"
+        }
+      },
+      "message" : {
+        "font-family" : {
+          "value" : "{label.medium.font-family.value}"
+        },
+        "font-weight" : {
+          "value" : "{label.medium.font-weight.value}"
+        },
+        "font-size" : {
+          "value" : "{label.medium.font-size.value}"
+        },
+        "line-height" : {
+          "value" : "{label.medium.line-height.value}"
+        },
+        "letter-spacing" : {
+          "value" : "{label.medium.letter-spacing.value}"
+        }
       }
     },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default toast variant"
+    "appearances" : {
+      "filled" : {
+        "variantGroups" : {
+          "status" : {
+            "success" : {
+              "container" : {
+                "background" : {
+                  "value" : "#ECF6F4"
+                },
+                "border" : {
+                  "color" : {
+                    "value" : "#2E7A6B"
+                  }
+                },
+                "color" : {
+                  "value" : "#001B5C"
+                },
+                "shadow" : {
+                  "value" : "{elevation.shadow.none.value}"
+                }
+              },
+              "icon" : {
+                "value" : "\"\\ea26\"",
+                "@" : {
+                  "value" : "\"\\ea26\""
+                }
+              }
+            },
+            "info" : {
+              "container" : {
+                "color" : {
+                  "value" : "#001B5C"
+                },
+                "background" : {
+                  "value" : "#F2F3F4"
+                },
+                "border" : {
+                  "color" : {
+                    "value" : "#B3BBCE"
+                  }
+                },
+                "shadow" : {
+                  "value" : "{elevation.shadow.none.value}"
+                }
+              },
+              "icon" : {
+                "value" : "\"\\e980\"",
+                "@" : {
+                  "value" : "\"\\e980\""
+                }
+              }
+            },
+            "warning" : {
+              "container" : {
+                "color" : {
+                  "value" : "#001B5C"
+                },
+                "background" : {
+                  "value" : "#FFF5E9"
+                },
+                "shadow" : {
+                  "value" : "{elevation.shadow.none.value}"
+                }
+              },
+              "icon" : {
+                "value" : "\"\\e91e\"",
+                "@" : {
+                  "value" : "\"\\e91e\""
+                }
+              }
+            },
+            "error" : {
+              "container" : {
+                "background" : {
+                  "value" : "#FCEEED"
+                },
+                "color" : {
+                  "value" : "#001B5C"
+                },
+                "shadow" : {
+                  "value" : "{elevation.shadow.none.value}"
+                }
+              },
+              "icon" : {
+                "value" : "\"\\e91c\"",
+                "@" : {
+                  "value" : "\"\\e91c\""
+                }
+              }
+            },
+            "default" : {
+              "icon" : {
+                "@" : {
+                  "value" : "\"\\e980\""
+                }
+              },
+              "container" : {
+                "shadow" : {
+                  "value" : "{elevation.shadow.none.value}"
+                }
+              }
+            }
+          }
         }
       }
     }

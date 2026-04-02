@@ -1,15 +1,64 @@
 {
-  "tile": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
+  "tile" : {
+    "appearances" : {
+      "default" : {
+        "variantGroups" : {
+          "primary" : {
+            "background" : {
+              "value" : "#E2F2FC"
+            }
+          },
+          "success" : {
+            "background" : {
+              "value" : "#ECF6F4"
+            }
+          },
+          "tertiary" : {
+            "background" : {
+              "value" : "#FFF5E9"
+            }
+          },
+          "danger" : {
+            "background" : {
+              "value" : "#FCEEED"
+            }
+          },
+          "info" : {
+            "background" : {
+              "value" : "#E0E4EB"
+            }
+          }
+        }
+      },
+      "elevated" : {
+        "mapping" : {
+          "padding" : {
+            "value" : "{space.6.value}"
+          },
+          "background" : {
+            "value" : "{color.surface.@.value}"
+          },
+          "color" : {
+            "value" : "{color.on-surface.@.value}"
+          },
+          "radius" : {
+            "value" : "{radius.lg.value}"
+          },
+          "shadow" : {
+            "value" : "{elevation.shadow.2.value}"
+          }
+        }
       }
     },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default tile variant"
+    "mapping" : {
+      "radius" : {
+        "value" : "{radius.lg.value}"
+      }
+    },
+    "meta" : {
+      "appearances" : {
+        "elevated" : {
+          "source" : "user"
         }
       }
     }

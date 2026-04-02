@@ -1,0 +1,11 @@
+{
+  "page": {
+    "mapping": {
+      "content": {
+        "padding": {
+          "value": "{space.0.value} {space.6.value}"
+        }
+      }
+    }
+  }
+}

@@ -1,32 +1,160 @@
 {
-  "wizard": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {
-          "background": {
-            "value": "{color.surface.@.value}"
+  "wizard" : {
+    "mapping" : {
+      "heading" : {
+        "background" : {
+          "value" : "#FFFFFF"
+        }
+      },
+      "step" : {
+        "title" : {
+          "color" : {
+            "value" : "#001B5C"
           },
-          "border": {
-            "radius": {
-              "value": "{radius.xs.value}"
+          "font" : {
+            "family" : {
+              "value" : "{label.large.font-family.value}"
+            },
+            "size" : {
+              "value" : "{label.large.font-size.value}"
+            },
+            "weight" : {
+              "value" : "{body.medium.font-weight.value}"
             }
           },
-          "shadow": {
-            "value": "{elevation.shadow.1.value}"
+          "line-height" : {
+            "value" : "20px"
+          }
+        },
+        "indicator" : {
+          "border" : {
+            "color" : {
+              "value" : "#001B5C"
+            }
           },
-          "heading": {
-            "padding": {
-              "value": "{space.7.value} {space.0.value} {space.7.value} {space.7.value}"
+          "size" : {
+            "value" : "34px"
+          }
+        },
+        "description" : {
+          "color" : {
+            "value" : "#828dab"
+          }
+        },
+        "connector" : {
+          "color" : {
+            "value" : "#828dab"
+          }
+        },
+        "gap" : {
+          "value" : "{space.0.value}"
+        }
+      },
+      "states" : {
+        "current" : {
+          "step" : {
+            "indicator" : {
+              "background" : {
+                "value" : "{color.primary.@.value}"
+              }
             }
           }
         }
       }
     },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default wizard variant"
+    "appearances" : {
+      "number" : {
+        "mapping" : {
+          "shadow" : {
+            "value" : "{elevation.shadow.none.value}"
+          },
+          "heading" : {
+            "background" : {
+              "value" : "{color.background.@.value}"
+            }
+          },
+          "step" : {
+            "connector" : {
+              "color" : {
+                "value" : "{color.secondary.label.text.value}"
+              }
+            },
+            "description" : {
+              "color" : {
+                "value" : "{color.secondary.label.text.value}"
+              }
+            },
+            "indicator" : {
+              "border" : {
+                "color" : {
+                  "value" : "{color.secondary.@.value}"
+                }
+              }
+            },
+            "title" : {
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          }
+        }
+      },
+      "iconstepper" : {
+        "mapping" : {
+          "shadow" : {
+            "value" : "{elevation.shadow.none.value}"
+          },
+          "heading" : {
+            "background" : {
+              "value" : "{color.white.@.value}"
+            }
+          },
+          "step" : {
+            "connector" : {
+              "color" : {
+                "value" : "{color.secondary.label.text.value}"
+              }
+            },
+            "description" : {
+              "color" : {
+                "value" : "{color.secondary.label.text.value}"
+              }
+            },
+            "indicator" : {
+              "border" : {
+                "color" : {
+                  "value" : "{color.primary.label.text.value}"
+                }
+              }
+            },
+            "title" : {
+              "color" : {
+                "value" : "{color.primary.label.text.value}"
+              }
+            }
+          }
+        }
+      },
+      "classic" : {
+        "mapping" : {
+          "step" : {
+            "title" : {
+              "color" : {
+                "value" : "{color.primary.label.text.value}"
+              }
+            }
+          }
+        }
+      },
+      "vertical" : {
+        "mapping" : {
+          "step" : {
+            "title" : {
+              "color" : {
+                "value" : "{color.primary.label.text.value}"
+              }
+            }
+          }
         }
       }
     }

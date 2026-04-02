@@ -1,15 +1,43 @@
 {
-  "datepicker": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
-      }
-    },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default date variant"
+  "datepicker" : {
+    "mapping" : {
+      "background" : {
+        "value" : "{color.white.@.value}"
+      },
+      "date" : {
+        "background" : {
+          "value" : "{color.transparent.value}"
+        },
+        "border" : {
+          "color" : {
+            "value" : "{color.transparent.value}"
+          }
+        },
+        "color" : {
+          "value" : "{color.secondary.@.value}"
+        },
+        "other" : {
+          "month" : {
+            "color" : {
+              "value" : "#828dabff"
+            }
+          }
+        }
+      },
+      "color" : {
+        "value" : "#828dabff"
+      },
+      "states" : {
+        "hover" : {
+          "date" : {
+            "state" : {
+              "layer" : {
+                "color" : {
+                  "value" : "{color.primary.@.value}"
+                }
+              }
+            }
+          }
         }
       }
     }

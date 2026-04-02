@@ -1,28 +1,117 @@
 {
-  "message": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
-      },
-      "filled": {
-        "variantGroups": {
-          "status": {
-            "success": {
-              "container": {
-                "background": {
-                  "value": "{color.success.@.value}"
+  "message" : {
+    "appearances" : {
+      "filled" : {
+        "variantGroups" : {
+          "status" : {
+            "success" : {
+              "container" : {
+                "background" : {
+                  "value" : "#ECF6F4"
+                },
+                "color" : {
+                  "value" : "#001B5C"
+                }
+              }
+            },
+            "danger" : {
+              "container" : {
+                "background" : {
+                  "value" : "#FCEEED"
+                },
+                "color" : {
+                  "value" : "#001B5C"
+                }
+              }
+            },
+            "warning" : {
+              "container" : {
+                "color" : {
+                  "value" : "#001B5C"
+                },
+                "background" : {
+                  "value" : "#FFF5E9"
+                }
+              }
+            },
+            "info" : {
+              "container" : {
+                "background" : {
+                  "value" : "#F2F3F4"
+                },
+                "color" : {
+                  "value" : "#001B5C"
                 }
               }
             }
           }
         }
+      },
+      "custom-info" : {
+        "mapping" : {
+          "container" : {
+            "background" : {
+              "value" : "#F2F3F4"
+            },
+            "color" : {
+              "value" : "#001B5C"
+            },
+            "border" : {
+              "color" : {
+                "value" : "{color.info.@.value}"
+              }
+            }
+          },
+          "font-family" : {
+            "value" : "{body.medium.font-family.value}"
+          },
+          "font-weight" : {
+            "value" : "{body.medium.font-weight.value}"
+          },
+          "font-size" : {
+            "value" : "{body.medium.font-size.value}"
+          },
+          "line-height" : {
+            "value" : "{body.medium.line-height.value}"
+          },
+          "letter-spacing" : {
+            "value" : "{body.medium.letter-spacing.value}"
+          }
+        }
       }
     },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default message variant"
+    "mapping" : {
+      "container" : {
+        "gap" : {
+          "value" : "{space.1.value}"
+        },
+        "shadow" : {
+          "value" : "none"
+        },
+        "padding" : {
+          "value" : "{space.2.value}"
+        }
+      },
+      "font-family" : {
+        "value" : "{body.medium.font-family.value}"
+      },
+      "font-weight" : {
+        "value" : "{body.medium.font-weight.value}"
+      },
+      "font-size" : {
+        "value" : "{body.medium.font-size.value}"
+      },
+      "line-height" : {
+        "value" : "{body.medium.line-height.value}"
+      },
+      "letter-spacing" : {
+        "value" : "{body.medium.letter-spacing.value}"
+      }
+    },
+    "meta" : {
+      "appearances" : {
+        "custom-info" : {
+          "source" : "user"
         }
       }
     }

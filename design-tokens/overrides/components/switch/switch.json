@@ -1,15 +1,44 @@
 {
   "switch": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
-      }
-    },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default switch variant"
+    "mapping": {
+      "btn": {
+        "border": {
+          "color": {
+            "@": {
+              "value": "{color.primary.@.value}"
+            }
+          }
+        },
+        "color": {
+          "@": {
+            "value": "{color.primary.@.value}"
+          }
+        },
+        "radius": {
+          "value": "{radius.xs.value}"
+        }
+      },
+      "states": {
+        "selected": {
+          "btn": {
+            "border": {
+              "color": {
+                "@": {
+                  "value": "{color.primary.@.value}"
+                }
+              }
+            },
+            "background": {
+              "@": {
+                "value": "{color.primary.@.value}"
+              }
+            },
+            "color": {
+              "@": {
+                "value": "#FFFFFF"
+              }
+            }
+          }
         }
       }
     }

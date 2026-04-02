@@ -1,15 +1,27 @@
 {
   "checkbox": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
-      }
-    },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default checkbox variant"
+    "mapping": {
+      "border": {
+        "color": {
+          "value": "{color.secondary.@.value}"
+        }
+      },
+      "state": {
+        "layer": {
+          "color": {
+            "value": "{color.primary.@.value}"
+          },
+          "opacity": {
+            "value": "0"
+          },
+          "size": {
+            "value": "40px"
+          }
+        }
+      },
+      "caption": {
+        "font-size": {
+          "value": "{body.medium.font-size.value}"
         }
       }
     }

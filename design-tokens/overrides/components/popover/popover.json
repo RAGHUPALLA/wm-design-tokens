@@ -1,15 +1,35 @@
 {
   "popover" : {
-    "appearances" : {
-      "new-variant" : {
-        "mapping" : { }
-      }
-    },
-    "meta" : {
-      "appearances" : {
-        "new-variant" : {
-          "source" : "aira",
-          "description" : "Default popover variant"
+    "mapping" : {
+      "background" : {
+        "value" : "#FFFFFF"
+      },
+      "shadow" : {
+        "value" : "0px 0px 16px 3px rgba(0, 0, 0, 0.16)"
+      },
+      "radius" : {
+        "value" : "{radius.lg.value}"
+      },
+      "body" : {
+        "font-family" : {
+          "value" : "{label.medium.font-family.value}"
+        },
+        "font-size" : {
+          "value" : "{label.medium.font-size.value}"
+        },
+        "font-weight" : {
+          "value" : "{label.medium.font-weight.value}"
+        },
+        "line-height" : {
+          "value" : "{label.medium.line-height.value}"
+        },
+        "letter-spacing" : {
+          "value" : "{label.medium.letter-spacing.value}"
+        }
+      },
+      "arrow" : {
+        "background" : {
+          "value" : "{color.surface.@.value}"
         }
       }
     }

@@ -1,16 +1,13 @@
 {
   "progress-bar": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
-      }
-    },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default progress-bar variant"
+    "mapping": {
+      "stroke": {
+        "inactive": {
+          "value": "#E0E4EB"
         }
+      },
+      "height": {
+        "value": "4px"
       }
     }
   }

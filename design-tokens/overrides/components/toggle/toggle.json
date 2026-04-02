@@ -1,15 +1,74 @@
 {
-  "toggle": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
-      }
-    },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default toggle variant"
+  "toggle" : {
+    "mapping" : {
+      "states" : {
+        "checked" : {
+          "handle" : {
+            "color" : {
+              "@" : {
+                "value" : "{color.primary.@.value}"
+              }
+            },
+            "size" : {
+              "@" : {
+                "value" : "20px"
+              }
+            }
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "@" : {
+                  "value" : "none"
+                }
+              }
+            }
+          },
+          "background" : {
+            "@" : {
+              "value" : "#E2F2FC"
+            }
+          }
+        }
+      },
+      "handle" : {
+        "color" : {
+          "@" : {
+            "value" : "{color.white.@.value}"
+          }
+        },
+        "size" : {
+          "@" : {
+            "value" : "20px"
+          }
+        }
+      },
+      "width" : {
+        "value" : "34px"
+      },
+      "height" : {
+        "value" : "14px"
+      },
+      "border" : {
+        "width" : {
+          "value" : "0px"
+        }
+      },
+      "state" : {
+        "layer" : {
+          "size" : {
+            "value" : "20px"
+          },
+          "color" : {
+            "@" : {
+              "value" : "none"
+            }
+          }
+        }
+      },
+      "background" : {
+        "@" : {
+          "value" : "{color.surface.3.value}"
         }
       }
     }

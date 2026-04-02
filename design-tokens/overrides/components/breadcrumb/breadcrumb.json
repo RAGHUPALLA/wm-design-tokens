@@ -1,15 +1,60 @@
 {
   "breadcrumb": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
-      }
-    },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default breadcrumb variant"
+    "mapping": {
+      "states": {
+        "hover": {
+          "item": {
+            "color": {
+              "value": "{color.primary.@.value}"
+            }
+          }
+        },
+        "focus": {
+          "item": {
+            "color": {
+              "value": "{color.primary.@.value}"
+            }
+          }
+        },
+        "active": {
+          "item": {
+            "color": {
+              "value": "{color.primary.@.value}"
+            }
+          }
+        }
+      },
+      "item": {
+        "separator": {
+          "color": {
+            "value": "{color.primary.@.value}"
+          },
+          "size": {
+            "value": "{icon.size.xs.value}"
+          }
+        },
+        "icon": {
+          "color": {
+            "value": "{color.primary.@.value}"
+          },
+          "size": {
+            "value": "{icon.size.xs.value}"
+          }
+        },
+        "font-size": {
+          "value": "{body.medium.font-size.value}"
+        },
+        "font-family": {
+          "value": "{body.medium.font-family.value}"
+        },
+        "font-weight": {
+          "value": "{body.medium.font-weight.value}"
+        },
+        "line-height": {
+          "value": "{body.medium.line-height.value}"
+        },
+        "letter-spacing": {
+          "value": "{body.medium.letter-spacing.value}"
         }
       }
     }

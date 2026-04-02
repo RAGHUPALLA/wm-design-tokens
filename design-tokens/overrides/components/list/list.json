@@ -1,15 +1,1395 @@
 {
-  "list": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
+  "list" : {
+    "mapping" : {
+      "state" : {
+        "layer" : {
+          "color" : {
+            "value" : "none"
+          }
+        }
+      },
+      "background" : {
+        "value" : "none"
+      },
+      "item" : {
+        "header" : {
+          "background" : {
+            "value" : "{color.secondary.@.value}"
+          },
+          "color" : {
+            "value" : "{color.secondary.@.value}"
+          }
+        },
+        "background" : {
+          "value" : "none"
+        }
+      },
+      "states" : {
+        "active" : {
+          "item" : {
+            "background" : {
+              "value" : "{color.primary.container.@.value}"
+            }
+          }
+        }
+      },
+      "min-height" : {
+        "value" : "2rem"
       }
     },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default list variant"
+    "appearances" : {
+      "order-summary" : {
+        "mapping" : {
+          "background" : {
+            "value" : "{color.transparent.value}"
+          },
+          "min-height" : {
+            "value" : "6rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : "all"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "{color.transparent.value}"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "{color.transparent.value}"
+            },
+            "padding" : {
+              "value" : "{space.0.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.3.value} {space.4.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.active.value}"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "no-item-padding" : {
+        "mapping" : {
+          "background" : {
+            "value" : "{color.white.@.value}"
+          },
+          "min-height" : {
+            "value" : "6rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : "all"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "{color.white.@.value}"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "{color.white.@.value}"
+            },
+            "padding" : {
+              "value" : "{space.0.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.3.value} {space.4.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.active.value}"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "list-nowrap" : {
+        "mapping" : {
+          "background" : {
+            "value" : "{color.white.@.value}"
+          },
+          "min-height" : {
+            "value" : "0rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : "all"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "{color.white.@.value}"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "{color.white.@.value}"
+            },
+            "padding" : {
+              "value" : "0px 24px"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.3.value} {space.4.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.active.value}"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "no-min-height" : {
+        "mapping" : {
+          "background" : {
+            "value" : "{color.white.@.value}"
+          },
+          "min-height" : {
+            "value" : "{space.0.value}"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : "all"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "{color.white.@.value}"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "{color.white.@.value}"
+            },
+            "padding" : {
+              "value" : "{space.3.value} {space.4.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.3.value} {space.4.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.active.value}"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "transparent" : {
+        "mapping" : {
+          "background" : {
+            "value" : "transparent"
+          },
+          "min-height" : {
+            "value" : "0rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : "none"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "transparent"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "transparent"
+            },
+            "padding" : {
+              "value" : "{space.3.value} {space.4.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.3.value} {space.4.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "action-item" : {
+        "mapping" : {
+          "background" : {
+            "value" : "{color.white.@.value}"
+          },
+          "min-height" : {
+            "value" : "0rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : "all"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "{color.primary.light.value}"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "{color.white.@.value}"
+            },
+            "padding" : {
+              "value" : "{space.3.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.3.value} {space.4.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.active.value}"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "bg-none" : {
+        "mapping" : {
+          "background" : {
+            "value" : "{color.white.@.value}"
+          },
+          "min-height" : {
+            "value" : "0rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : "all"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "{color.white.@.value}"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "{color.white.@.value}"
+            },
+            "padding" : {
+              "value" : "{space.4.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.3.value} {space.4.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.active.value}"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "upload" : {
+        "mapping" : {
+          "background" : {
+            "value" : "{color.white.@.value}"
+          },
+          "min-height" : {
+            "value" : "0rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : "all"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "{color.primary.container.@.value}"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "{color.surface.2.value}"
+            },
+            "padding" : {
+              "value" : "{space.3.value} {space.4.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.3.value} {space.4.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "1"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.active.value}"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "filter-item" : {
+        "mapping" : {
+          "background" : {
+            "value" : "{color.surface.1.value}"
+          },
+          "min-height" : {
+            "value" : "0rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : "all"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "{color.primary.container.@.value}"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "{color.primary.container.@.value}"
+            },
+            "padding" : {
+              "value" : "{space.1.value} {space.2.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.1.value} {space.2.value}"
+              },
+              "background" : {
+                "value" : "{color.primary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.primary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.active.value}"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "no-bg" : {
+        "mapping" : {
+          "background" : {
+            "value" : "none"
+          },
+          "min-height" : {
+            "value" : "0rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : "all"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "none"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "none"
+            },
+            "padding" : {
+              "value" : "{space.3.value} {space.4.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.3.value} {space.4.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.active.value}"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "notes" : {
+        "mapping" : {
+          "background" : {
+            "value" : "{color.white.@.value}"
+          },
+          "min-height" : {
+            "value" : "0rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : "all"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "{color.primary.container.@.value}"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "{color.surface.5.value}"
+            },
+            "padding" : {
+              "value" : "{space.3.value} {space.4.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.3.value} {space.4.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "1"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.active.value}"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "config-list" : {
+        "mapping" : {
+          "background" : {
+            "value" : "transparent"
+          },
+          "min-height" : {
+            "value" : "0rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : ""
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "transparent"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "transparent"
+            },
+            "padding" : {
+              "value" : "{space.6.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.0.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.white.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "menu-items" : {
+        "mapping" : {
+          "background" : {
+            "value" : "{color.white.@.value}"
+          },
+          "min-height" : {
+            "value" : "0rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : "all"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "{color.primary.light.value}"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "{color.white.@.value}"
+            },
+            "padding" : {
+              "value" : "{space.3.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.3.value} {space.4.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "1"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "1"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "1"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "shadow-2" : {
+        "mapping" : {
+          "background" : {
+            "value" : "none"
+          },
+          "min-height" : {
+            "value" : "1rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : "all"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "none"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "none"
+            },
+            "padding" : {
+              "value" : "{space.3.value} {space.4.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.3.value} {space.4.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.hover.value}"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "none"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "{opacity.active.value}"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      },
+      "config-list-main" : {
+        "mapping" : {
+          "background" : {
+            "value" : "transparent"
+          },
+          "min-height" : {
+            "value" : "0rem"
+          },
+          "opacity" : {
+            "value" : "1"
+          },
+          "pointer-events" : {
+            "value" : ""
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "transparent"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "item" : {
+            "background" : {
+              "value" : "transparent"
+            },
+            "padding" : {
+              "value" : "{space.6.value}"
+            },
+            "header" : {
+              "padding" : {
+                "value" : "{space.0.value}"
+              },
+              "background" : {
+                "value" : "{color.secondary.@.value}"
+              },
+              "color" : {
+                "value" : "{color.secondary.@.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              }
+            },
+            "active" : {
+              "item" : {
+                "background" : {
+                  "value" : "{color.primary.container.@.value}"
+                }
+              },
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              }
+            },
+            "disabled" : {
+              "opacity" : {
+                "value" : "0.38"
+              },
+              "pointer-events" : {
+                "value" : "none"
+              }
+            }
+          }
+        }
+      }
+    },
+    "meta" : {
+      "appearances" : {
+        "order-summary" : {
+          "source" : "user"
+        },
+        "no-item-padding" : {
+          "source" : "user"
+        },
+        "list-nowrap" : {
+          "source" : "user"
+        },
+        "no-min-height" : {
+          "source" : "user"
+        },
+        "transparent" : {
+          "source" : "user"
+        },
+        "action-item" : {
+          "source" : "user"
+        },
+        "bg-none" : {
+          "source" : "user"
+        },
+        "upload" : {
+          "source" : "user"
+        },
+        "filter-item" : {
+          "source" : "user"
+        },
+        "no-bg" : {
+          "source" : "user"
+        },
+        "notes" : {
+          "source" : "user"
+        },
+        "config-list" : {
+          "source" : "user"
+        },
+        "menu-items" : {
+          "source" : "user"
+        },
+        "shadow-2" : {
+          "source" : "user"
+        },
+        "config-list-main" : {
+          "source" : "user"
         }
       }
     }

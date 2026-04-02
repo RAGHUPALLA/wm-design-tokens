@@ -1,15 +1,240 @@
 {
-  "card": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
+  "card" : {
+    "mapping" : {
+      "border" : {
+        "radius" : {
+          "value" : "{radius.lg.value}"
+        }
+      },
+      "states" : {
+        "active" : {
+          "background" : {
+            "value" : "#FFFFFF"
+          }
+        }
+      },
+      "body" : {
+        "padding" : {
+          "value" : "{space.2.value}"
+        }
+      },
+      "footer" : {
+        "padding" : {
+          "value" : "{space.2.value}"
+        }
       }
     },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default cards variant"
+    "appearances" : {
+      "fixedcard" : {
+        "mapping" : {
+          "border" : {
+            "width" : {
+              "value" : "{border.width.base.value}"
+            },
+            "style" : {
+              "value" : "{border.style.base.value}"
+            },
+            "color" : {
+              "value" : "{color.outline.variant.value}"
+            },
+            "radius" : {
+              "value" : "{radius.lg.value}"
+            }
+          },
+          "list" : {
+            "gap" : {
+              "value" : "{space.4.value}"
+            }
+          },
+          "background" : {
+            "value" : "{color.transparent.value}"
+          },
+          "shadow" : {
+            "value" : "none"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "{color.on-surface.@.value}"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "body" : {
+            "padding" : {
+              "value" : "{space.2.value}"
+            }
+          },
+          "footer" : {
+            "padding" : {
+              "value" : "{space.2.value}"
+            },
+            "border" : {
+              "width" : {
+                "value" : "{border.width.base.value}"
+              },
+              "style" : {
+                "value" : "{border.style.base.value}"
+              },
+              "color" : {
+                "value" : "{color.outline.variant.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              },
+              "shadow" : {
+                "value" : "{elevation.shadow.1.value}"
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              },
+              "shadow" : {
+                "value" : "none"
+              }
+            },
+            "active" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              },
+              "shadow" : {
+                "value" : "none"
+              },
+              "background" : {
+                "value" : "#FFFFFF"
+              }
+            }
+          }
+        }
+      },
+      "bulkaction" : {
+        "mapping" : {
+          "border" : {
+            "width" : {
+              "value" : "{border.width.base.value}"
+            },
+            "style" : {
+              "value" : "{border.style.base.value}"
+            },
+            "color" : {
+              "value" : "{color.outline.variant.value}"
+            },
+            "radius" : {
+              "value" : "{radius.md.value}"
+            }
+          },
+          "list" : {
+            "gap" : {
+              "value" : "{space.4.value}"
+            }
+          },
+          "background" : {
+            "value" : "{color.surface.@.value}"
+          },
+          "shadow" : {
+            "value" : "{elevation.shadow.2.value}"
+          },
+          "state" : {
+            "layer" : {
+              "color" : {
+                "value" : "{color.on-surface.@.value}"
+              },
+              "opacity" : {
+                "value" : "0"
+              }
+            }
+          },
+          "body" : {
+            "padding" : {
+              "value" : "{space.2.value}"
+            }
+          },
+          "footer" : {
+            "padding" : {
+              "value" : "{space.2.value}"
+            },
+            "border" : {
+              "width" : {
+                "value" : "{border.width.base.value}"
+              },
+              "style" : {
+                "value" : "{border.style.base.value}"
+              },
+              "color" : {
+                "value" : "{color.outline.variant.value}"
+              }
+            }
+          },
+          "states" : {
+            "hover" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              },
+              "shadow" : {
+                "value" : "{elevation.shadow.2.value}"
+              }
+            },
+            "focus" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              },
+              "shadow" : {
+                "value" : "{elevation.shadow.2.value}"
+              }
+            },
+            "active" : {
+              "state" : {
+                "layer" : {
+                  "opacity" : {
+                    "value" : "0"
+                  }
+                }
+              },
+              "shadow" : {
+                "value" : "{elevation.shadow.2.value}"
+              },
+              "background" : {
+                "value" : "#FFFFFF"
+              }
+            }
+          }
+        }
+      }
+    },
+    "meta" : {
+      "appearances" : {
+        "fixedcard" : {
+          "source" : "user"
+        },
+        "bulkaction" : {
+          "source" : "user"
         }
       }
     }

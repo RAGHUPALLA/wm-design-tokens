@@ -1,15 +1,9 @@
 {
-  "spinner": {
-    "appearances": {
-      "new-variant": {
-        "mapping": {}
-      }
-    },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default spinner variant"
+  "spinner" : {
+    "mapping" : {
+      "loading-data-msg" : {
+        "color" : {
+          "value" : "{color.primary.@.value}"
         }
       }
     }

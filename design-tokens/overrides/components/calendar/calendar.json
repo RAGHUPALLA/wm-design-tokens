@@ -1,15 +1,25 @@
 {
   "calendar": {
     "appearances": {
-      "new-variant": {
-        "mapping": {}
-      }
-    },
-    "meta": {
-      "appearances": {
-        "new-variant": {
-          "source": "aira",
-          "description": "Default calendar variant"
+      "tertiary": {
+        "mapping": {
+          "background": {
+            "value": "#E2F2FC"
+          }
+        }
+      },
+      "primary": {
+        "mapping": {
+          "background": {
+            "value": "#E2F2FC"
+          }
+        }
+      },
+      "secondary": {
+        "mapping": {
+          "background": {
+            "value": "#E0E4EB"
+          }
         }
       }
     }
